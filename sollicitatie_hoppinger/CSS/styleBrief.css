@@ -1,0 +1,184 @@
+  /* GLOBAL STYLES
+-----------------*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 75px;
+  font-family: 'Syncopate', sans-serif;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: 'Syncopate', sans-serif;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+a {
+  color: #FFA07A;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFA07A;
+  text-decoration: underline;
+}
+
+/* NAV BAR --------------*/
+
+.topnav {
+  background-color: white;
+  color: black;
+  text-align: center;
+  position: fixed;
+  top: 0; /* let op positie van topnav is bovenaan pagina, vandaar top 0*/
+  left: 0;
+  right: 0; /* or set width 100% */
+}
+
+.active {
+  color: #FFA07A;
+}
+
+nav a {
+  display: inline-block;
+  padding: 30px;
+  font-family: 'Syncopate', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 16px;
+  transition-property:background;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+}
+
+nav a:hover {
+  color: #FFA07A;
+  text-decoration: none;
+}
+
+/* HEADER
+-----------------*/
+header {
+  background-color: #FFA07A;
+  text-align: center;
+  padding: 100px 0px 10px 0px;
+}
+
+.naw {
+  background-color: #000000;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.1em;
+  padding: 1px 0px 1px 0px;
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-top: -20px;
+}
+
+.naw a{
+  color: #FFA07A;
+}
+
+.naw a:hover{
+  color: #FFA07A;
+}
+
+/* INHOUD
+-----------------*/
+.content-wrap {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.inhoud {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.4;
+  background-color: #FFFFFF;
+  text-align: justify;
+  margin-bottom: -175px;
+
+}
+
+/* INHOUD
+-----------------*/
+
+.bijlagen {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.4;
+  background-color: #FFFFFF;
+  text-align: justify;
+  margin-bottom: -25px;
+}
+
+.bijlagen a {
+  color: #FFA07A;
+}
+
+.bijlagen a:hover {
+  color: #FFA07A;
+}
+
+
+/* FOOTER/CONTACT
+-----------------*/
+.footer {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  padding: 1px 0px 1px 0px;
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-top: -20px;
+  background-color: #000000;
+}
+
+footer p {
+  margin-top: 20px;
+}
+.social-horizontal {
+  text-align: center;
+  margin-top: -10px;
+  background-color: #000000;
+}
+.social-horizontal a {
+  display: inline-block;
+  margin: 10px 50px;
+}
+.social-horizontal a:hover {
+  color: #FFFFFF;
+}
+.social-horizontal i {
+  font-size: 50px;
+}
+
+/* Copyright */
+.copyright {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  margin-top: 25px;
+  padding-bottom: 30px;
+}
